@@ -1,0 +1,96 @@
+html, body{
+	margin: 0px auto;
+	padding: 0px;
+	width:780px;
+
+}
+body{
+	width:780px;
+	margin: auto;
+}
+header{
+	
+	margin: auto;
+	height: 99px;
+	background-color: #fbfbfb;
+}
+
+header .logo img{
+	display:inline-block;
+	width: 260px;
+	padding: 25px 0px 0px 46px;
+}
+section.ministerios{
+	width: 100%;
+}
+section.ministerios article {
+		
+	clear: left;
+
+}
+section.ministerios article .perfil{
+	margin-left: 41px;
+	float: left;
+	margin: 30px 0px 30px 40px;
+}
+section.ministerios article .perfil img{
+	width: 92px;
+	border-radius:46px; 
+	float: left;
+}
+
+section.ministerios article .datos{
+	float: left;
+	
+	margin: 4px 0px 0px 10px;
+}
+section.ministerios article .datos h3{
+	color: #4da0a7;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+section.ministerios article .datos p{
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #646464;
+	font-weight: 300;
+	}
+
+section.ministerios article .datos h3, section.ministerios article .datos p{
+	
+	font-family: 'Roboto';
+
+}
+section.ministerios article .redes{
+	margin-top: 15px;
+	clear:left;
+	display: block;
+
+}
+section.ministerios article .redes ul{
+	list-style: none;
+	padding: 0px;
+	display: inline;
+
+}
+section.ministerios article .redes li{
+	display: inline-block;
+	}
+section.ministerios article .redes img{
+	height: 22px;
+	padding-right: 25px;
+	width: auto;
+	border-radius: 0px;
+	}
+section.ministerios article hr{
+	clear: left;
+	border: 0;
+    height: 1px;
+    margin: 0px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
